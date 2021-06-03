@@ -1,0 +1,30 @@
+<HTML>
+  <HEAD>
+    <TITLE>HW08</TITLE>
+    <SCRIPT LANGUAGE="javascript">
+      function tree(){
+          var X = prompt("輸入數字");
+          for(var i=1;i<=X;i++){
+              for(var k=1;k<=(X-i);k++){
+                  document.write("<span style='white-space:pre;'>  </span>");
+               }
+              for(var j=1;j<=(i*2-1);j++){
+                 document.write("*");
+              }
+              document.write("<br>");
+          }
+         for(var i =1;i<=X;i++){
+             for(var j=1;j<X;j++){
+                 document.write("<span style='white-space:pre;'>  </span>");
+             }
+             document.write("*<br>");
+          }
+      }
+      
+       
+    </SCRIPT>
+  </HEAD>
+  <BODY>
+    <INPUT TYPE="BUTTON" ID="b1" VALUE="案" onclick="javascript:tree();">
+  </BODY>
+</HTML> 

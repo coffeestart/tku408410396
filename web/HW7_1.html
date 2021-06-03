@@ -1,0 +1,30 @@
+<HTML>
+  <HEAD>
+    <TITLE>事件處理程式</TITLE>
+    <SCRIPT LANGUAGE="javascript">
+      Button_Click(b1);
+      function Button_Click(ID)
+      {
+        if(ID==b1){
+          alert("前往index");
+        }
+        else if(ID==b2){
+          alert("前往音樂2");
+        }
+        else if(ID==b3){
+          alert("前往音樂3");
+        }
+      } 
+    </SCRIPT>
+  </HEAD>
+  <BODY>
+      <a href="./HW7_index.html"><INPUT TYPE="BUTTON" ID="b1" VALUE="index" 
+      onclick="javascript:Button_Click(b1);"></a>
+      <a href="./HW7_2.html"><INPUT TYPE="BUTTON" ID="b2" VALUE="撥放音樂2" 
+      onclick="javascript:Button_Click(b2);"></a>
+      <a href="./HW7_3.html"><INPUT TYPE="BUTTON" ID="b3" VALUE="撥放音樂3" 
+      onclick="javascript:Button_Click(b3);"></a>
+      <p></p>
+      <iframe src="https://drive.google.com/file/d/1jIoJTaZBeJGT5fdaxA3h1Vp5iAIlbzHD/preview" width="640" height="480"></iframe>    
+  </BODY>
+</HTML> 
